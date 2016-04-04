@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+.content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+#clock-frame {
+  margin: auto;
+  height: 500px;
+  width: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  background-color: #EEEEEE;
+}
+
+#main-clock {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
